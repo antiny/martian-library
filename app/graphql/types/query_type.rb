@@ -6,7 +6,7 @@ module Types
     # They will be entry points for queries on your schema.
 
     field :items, [Types::ItemType], null: false,
-         description: 'Returns a list of items in the martian library'
+                                     description: 'Returns a list of items in the martian library'
 
     def items
       Item.all
