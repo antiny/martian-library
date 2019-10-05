@@ -41,5 +41,7 @@ module MartianLibrary
       g.helper          false
       g.channel         assets: false
     end
+
+    config.lograge.enabled = true
   end
 end

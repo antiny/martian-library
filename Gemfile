@@ -44,7 +44,9 @@ end
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 # custom application gems
+gem 'ar_lazy_preload', '~> 0.2.6'
 gem 'graphql', '~> 1.9'
+gem 'lograge', '~> 0.11.2'
 
 group :development, :test do
   gem 'factory_bot_rails', '~> 5.1'
